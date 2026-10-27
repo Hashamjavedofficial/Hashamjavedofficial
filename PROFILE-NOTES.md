@@ -4,7 +4,7 @@ This README is designed for GitHub's Markdown renderer: native links and disclos
 
 ## Assets and accessibility
 
-- `assets/hasham-avatar.png` is an original AI-generated symbolic developer illustration. It is not a claim of photographic likeness and is not the GitHub account avatar.
+- `assets/hasham-doodle-avatar.png` is an original AI-generated inventor doodle inspired by Hasham's supplied sketch: black ink, a winking face, a crooked cap, and a mint-green flask. It is a symbolic character, not a claim of photographic likeness.
 - `assets/build-loop.svg` is a local, self-contained SVG. Its short typing animation stops, respects `prefers-reduced-motion`, and defaults to readable static text without animation support. Its message is repeated in accessible image text.
 - All essential identity, experience, skills, and contact information is ordinary text. Badges wrap; there are no fixed-width multi-column tables.
 

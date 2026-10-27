@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hasham-avatar.png" width="176" height="176" alt="Original emoji-style developer avatar: a smiling, bearded character waving, with teal and violet lighting." />
+<img src="assets/hasham-doodle-avatar.png" width="176" height="176" alt="Original hand-drawn inventor doodle: a winking character in a crooked cap holding a mint-green bubbling flask." />
 
 # Hi, I'm Hasham Javed 👋
 
