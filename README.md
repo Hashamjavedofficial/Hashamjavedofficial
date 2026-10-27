@@ -45,7 +45,7 @@ const me = {
 <p align="center"><sub>My contribution history, one square at a time. Refreshed daily.</sub><br />
 <a href="https://github.com/Hashamjavedofficial?tab=overview">View the original contribution calendar ↗</a></p>
 
-## 🛠️ Tech stack
+## 🔧 Tech stack
 
 <div align="center">
 
