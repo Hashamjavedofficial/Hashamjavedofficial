@@ -1,0 +1,50 @@
+name: Refresh GitHub profile cards
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_activity.py
+      - .github/workflows/refresh-profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-card-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Hashamjavedofficial/Hashamjavedofficial' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Refresh cards from GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_activity.py
+      - name: Generate the contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: Hashamjavedofficial
+          github_token: ${{ github.token }}
+          outputs: |
+            assets/contribution-snake.svg?palette=github-dark&color_snake=%23a9a0ff&color_dots=%23202b40,%2328594f,%23388974,%235bb99d,%238ff0d2
+      - name: Save updated cards
+        run: |
+          if git diff --quiet -- assets/github-data.json assets/github-activity.svg assets/github-activity-mobile.svg assets/github-stats.svg assets/github-languages.svg assets/github-analytics.svg assets/github-analytics-mobile.svg assets/contribution-snake.svg; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/github-data.json assets/github-activity.svg assets/github-activity-mobile.svg assets/github-stats.svg assets/github-languages.svg assets/github-analytics.svg assets/github-analytics-mobile.svg assets/contribution-snake.svg
+          git commit -m 'Refresh GitHub profile activity'
+          git push
