@@ -1,132 +1,108 @@
 <div align="center">
 
-<img src="assets/hasham-doodle-avatar.png" width="176" height="176" alt="Original hand-drawn inventor doodle: a winking character in a crooked cap holding a mint-green bubbling flask." />
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/hero-mobile.svg" />
+  <img src="assets/hero.svg" width="100%" alt="Hasham Javed — Senior full-stack developer. Thoughtful interfaces. Powerful systems. React, Next.js, Node.js, NestJS, AI agents, SQL, and cloud." />
+</picture>
 
-# Hi, I'm Hasham Javed 👋
+<img src="assets/typing.svg" width="560" alt="Full-stack. Full ownership. From React to cloud. Building with AI agents." />
 
-**Senior full-stack developer · React / Next.js · Node.js / NestJS · AI agents**
+<p>
+  <a href="https://hashamjavedofficial.github.io/developerFolio/"><img src="assets/button-portfolio.svg" width="184" height="44" alt="Explore my portfolio" /></a>
+  <a href="https://www.linkedin.com/in/hashamjaved/"><img src="assets/button-linkedin.svg" width="184" height="44" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:hasham.hasham1@gmail.com"><img src="assets/button-email.svg" width="184" height="44" alt="Say hello by email" /></a>
+</p>
 
-I turn complex workflows into clear interfaces, dependable APIs, and connected systems.
-
-<img src="assets/build-loop.svg" width="640" alt="From interface to API to intelligence. Built end to end." />
-
-**[Explore my work](#selected-experience)** · **[Open the toolbox](#my-toolbox)** · **[View activity](#github-pulse)**
-
-[Portfolio](https://hashamjavedofficial.github.io/developerFolio/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/hashamjaved/) &nbsp; / &nbsp; [Say hello](mailto:hasham.hasham1@gmail.com)
+**[THE WORK](#-selected-work)** &nbsp; / &nbsp; **[THE STACK](#-the-stack)** &nbsp; / &nbsp; **[THE ACTIVITY](#-github-in-motion)**
 
 </div>
 
----
+<br />
 
-## What I bring to the build
+## ✦ A little about the builder
 
-🧩 **Interfaces that make sense.** React, Next.js, and TypeScript for thoughtful web experiences, with React Native experience across mobile products.
+I'm **Hasham**, a senior full-stack developer working across **React / Next.js, Node.js / NestJS, SQL, and cloud**. I build customer-facing products and the integrations behind them, with experience in web, mobile, technical leadership, and enterprise systems.
 
-⚙️ **The systems behind the screen.** Node.js, NestJS, SQL, and enterprise API integrations, backed by hands-on Azure and AWS work.
+🔭 **Current focus:** AI agents, MCP integrations, and useful business workflows.<br />
+🌱 **Going deeper:** Python, FastAPI, and LLMs.<br />
+💬 **Always up for:** a good architecture discussion—or simplifying an unnecessarily complicated flow.
 
-🤖 **AI with a practical purpose.** AI agents, agent-assisted development, and work connecting business data to useful workflows. Currently deepening my Python, FastAPI, and LLM toolkit.
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/build-flow-mobile.svg" />
+  <img src="assets/build-flow.svg" width="100%" alt="My build loop: understand, design, build, refine. Small details. Complete systems." />
+</picture>
 
-🧭 **Ownership beyond implementation.** Technical leadership, code reviews, and collaboration with the people who use the product.
+## ✦ Selected work
 
-## Selected experience
+From customer journeys to connected business systems.
 
-Pick a story to unfold ↓
+<div align="center">
+  <img src="assets/work-telecom.svg" width="390" alt="Vodafone Qatar: customer journeys, full-stack delivery, and service integrations. React, NestJS, external APIs." />
+  <img src="assets/work-healthcare.svg" width="390" alt="HealthOne: frontend leadership for complex healthcare workflows. Next.js, TypeScript, SignalR." />
+  <img src="assets/work-mobile.svg" width="390" alt="TrueCare: connected web and mobile products with shared foundations. Next.js, React Native, monorepo." />
+  <img src="assets/work-integrations.svg" width="390" alt="Connected systems: forecasting, inventory, and integration work. SQL, cloud, AI agents, and MCP." />
+</div>
 
 <details>
-<summary><strong>📡 Telecom journeys — from customer flow to service integration</strong></summary>
+<summary><strong>↳ The work behind the cards — my role and contributions</strong></summary>
 
-On **Vodafone Qatar** projects, my work has spanned React interfaces, NestJS services, and self-service journeys. For **GigaHome**, I built the application with React/Zustand and NestJS and led a team of four developers.
-
-I also developed the Starlink API integration microservice for the EBU Self Care Portal.
-
-**Focus:** full-stack delivery · external APIs · team leadership
+- **Vodafone Qatar / GigaHome:** React and NestJS delivery across customer journeys and services. Built GigaHome with React/Zustand and NestJS, led four developers, and developed the Starlink integration microservice for the EBU Self Care Portal.
+- **HealthOne:** frontend lead using Next.js, React, TypeScript, and SignalR within a multidisciplinary Scrum team.
+- **TrueCare:** web and mobile development with Next.js and React Native, including a monorepo for shared code.
+- **Business systems:** forecast and inventory dashboards, SQL-backed ERP integrations, cloud services, and current AI-agent and MCP integration work.
 
 </details>
 
-<details>
-<summary><strong>🏥 Healthcare products — clear interfaces for complex workflows</strong></summary>
+## ✦ The stack
 
-As frontend lead on **HealthOne**, I worked with Next.js, React, TypeScript, and SignalR on a healthcare SaaS platform, collaborating within a multidisciplinary Scrum team.
+<div align="center">
 
-My **TrueCare** work covered both Next.js web and React Native mobile applications, including shared code through a monorepo.
+<h4>Interfaces &amp; experiences</h4>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,vue,nuxt,tailwind&amp;theme=dark" width="330" alt="React, Next.js, TypeScript, Vue, Nuxt, Tailwind CSS" />
+<p><sub>React · Next.js · TypeScript · Vue · Nuxt · Tailwind · React Native</sub></p>
 
-**Focus:** reusable foundations · real-time collaboration · web and mobile
+<h4>APIs &amp; data</h4>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,postgres,mysql,mongodb&amp;theme=dark" width="330" alt="Node.js, NestJS, Express, PostgreSQL, MySQL, MongoDB" />
+<p><sub>Node.js · NestJS · Express · PostgreSQL · MySQL · MongoDB · SQL Server</sub></p>
 
-</details>
+<h4>Cloud &amp; delivery</h4>
+<img src="https://skillicons.dev/icons?i=azure,aws,docker,git,gitlab,firebase&amp;theme=dark" width="330" alt="Azure, AWS, Docker, Git, GitLab, Firebase" />
+<p><sub>Azure · AWS · Docker · Git · GitLab CI/CD · Firebase</sub></p>
 
-<details>
-<summary><strong>🔌 Business systems — making data usable across boundaries</strong></summary>
+<h4>AI &amp; what's next</h4>
 
-My experience includes forecast and inventory dashboards, SQL-backed ERP integrations, and cloud services. My current interests and project work also include AI agents and MCP integrations for business workflows.
+![AI agents](https://img.shields.io/badge/AI_Agents-172B2B?style=for-the-badge&logoColor=white&color=172B2B)
+![MCP integrations](https://img.shields.io/badge/MCP_Integrations-25213F?style=for-the-badge)
+![Agent-assisted development](https://img.shields.io/badge/Agent--assisted_Dev-192B42?style=for-the-badge)
 
-**Focus:** integration correctness · understandable data · practical AI
+<sub>Growing my Python, FastAPI, and LLM toolkit through ongoing learning.</sub>
 
-</details>
+</div>
 
-## My toolbox
-
-**The everyday stack**
-
-![React](https://img.shields.io/badge/React-101820?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-101820?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-![TypeScript](https://img.shields.io/badge/TypeScript-101820?style=flat-square&logo=typescript&logoColor=60A5FA)
-![Node.js](https://img.shields.io/badge/Node.js-101820?style=flat-square&logo=nodedotjs&logoColor=8ACB74)
-![NestJS](https://img.shields.io/badge/NestJS-101820?style=flat-square&logo=nestjs&logoColor=FB7185)
-![SQL](https://img.shields.io/badge/SQL-101820?style=flat-square&logo=postgresql&logoColor=93C5FD)
-
-<details>
-<summary><strong>Open the rest of the toolbox</strong></summary>
-
-- **Web & mobile:** React, Next.js, TypeScript, Vue, Nuxt, React Native, Tailwind, Zustand, Redux Toolkit.
-- **APIs & data:** Node.js, NestJS, Express, REST, GraphQL, PostgreSQL, SQL Server, MySQL, MongoDB.
-- **Cloud & delivery:** Azure Blob Storage, Azure Web Apps, Cosmos DB, AWS Lambda, Docker, CI/CD.
-- **Quality & collaboration:** Jest, React Testing Library, code reviews, Core Web Vitals, Scrum.
-- **AI & ongoing learning:** agent-assisted workflows, MCP integration work, Python, FastAPI, generative AI, and LLMs.
-
-</details>
-
-## The public workbench
-
-A small shelf of templates, experiments, and earlier learning projects.
-
-- **[RN-BoilerPlateX](https://github.com/Hashamjavedofficial/RN-BoilerPlateX)** — a template for React Native apps.
-- **[Next.js authentication](https://github.com/Hashamjavedofficial/nextjs-authentication-with-mongoose-next-connect)** — an authentication experiment using Next.js, Mongoose, and next-connect.
-- **[React OpenAQ Comparison](https://github.com/Hashamjavedofficial/React-OpenAQ-Comparison)** — a React project exploring air-quality comparisons.
-
-**[Browse all repositories →](https://github.com/Hashamjavedofficial?tab=repositories)**
-
-## GitHub pulse
-
-<p align="center">
-  <a href="https://github.com/Hashamjavedofficial?tab=repositories">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hashamjavedofficial&amp;theme=github_dark" width="360" alt="GitHub statistics for Hashamjavedofficial. Open repositories for the source view." />
-  </a>
-</p>
-
-<details>
-<summary><strong>📈 Open my contribution timeline</strong></summary>
+## ✦ GitHub in motion
 
 <a href="https://github.com/Hashamjavedofficial?tab=overview">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hashamjavedofficial&amp;theme=github_dark" width="100%" alt="Contribution timeline for Hashamjavedofficial. Open the GitHub overview for the native contribution calendar." />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hashamjavedofficial&amp;name=Hasham%20Javed&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;icon_color=a9a0ff&amp;chart_color=a9a0ff&amp;animation=draw&amp;duration=3" width="100%" alt="Hasham Javed's contribution timeline. Open GitHub for the native contribution calendar." />
 </a>
 
-</details>
+<div align="center">
+  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hashamjavedofficial&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;icon_color=a9a0ff&amp;animation=stagger&amp;duration=2" width="390" alt="GitHub statistics for Hashamjavedofficial; open repositories to explore the source." /></a>
+  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hashamjavedofficial&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;animation=draw&amp;duration=2" width="390" alt="Languages across public repositories; this chart describes repository contents, not professional proficiency." /></a>
+</div>
 
-<sub>Cards reflect the data available to their providers and may be cached. Public activity is one part of my work.</sub>
+<p align="center"><sub>Provider snapshots may be cached; public GitHub activity is one part of my work.</sub><br />
+<a href="https://github.com/Hashamjavedofficial?tab=overview">Native contribution calendar</a> · <a href="https://github.com/Hashamjavedofficial?tab=repositories">All repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3AHashamjavedofficial">Pull requests</a></p>
 
-**[Native contribution calendar](https://github.com/Hashamjavedofficial?tab=overview)** · **[Repositories](https://github.com/Hashamjavedofficial?tab=repositories)** · **[Pull requests](https://github.com/pulls?q=is%3Apr+author%3AHashamjavedofficial)**
+## ✦ The public workbench
 
----
+A few templates, experiments, and earlier learning projects you can explore.
 
-### Have a useful problem to solve?
+**[📱 RN-BoilerPlateX](https://github.com/Hashamjavedofficial/RN-BoilerPlateX)** — a starting point for React Native apps.<br />
+**[🔐 Next.js authentication](https://github.com/Hashamjavedofficial/nextjs-authentication-with-mongoose-next-connect)** — an experiment with Mongoose and next-connect.<br />
+**[🌍 React OpenAQ Comparison](https://github.com/Hashamjavedofficial/React-OpenAQ-Comparison)** — exploring air-quality comparisons with React.
 
-I enjoy conversations about full-stack products, API integrations, AI agents, and making complicated systems easier to use.
+<br />
 
-**[Let's connect on LinkedIn →](https://www.linkedin.com/in/hashamjaved/)** &nbsp; **[Email me →](mailto:hasham.hasham1@gmail.com)**
+<a href="https://www.linkedin.com/in/hashamjaved/"><img src="assets/footer.svg" width="100%" alt="Have a good problem? Let's build something useful. Connect with Hasham on LinkedIn." /></a>
 
-<details>
-<summary>☕ One more thing…</summary>
-
-The best part of a clever solution is when the person using it doesn't have to think about the complexity behind it.
-
-</details>
+<p align="center"><strong><a href="mailto:hasham.hasham1@gmail.com">Email me</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/hashamjaved/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://hashamjavedofficial.github.io/developerFolio/">Portfolio</a></strong></p>

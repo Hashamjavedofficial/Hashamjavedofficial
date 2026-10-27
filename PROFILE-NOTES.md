@@ -1,21 +1,21 @@
 # Profile maintenance
 
-This README is designed for GitHub's Markdown renderer: native links and disclosure sections, wrapping badges, single-column content, and responsive images. There is no JavaScript or iframe dependency.
+The profile uses a dark mint, blue, and violet visual system with an illustrated hero, animated typing, project cards, technology icons, and visible activity charts. GitHub controls the surrounding page theme.
 
-## Assets and accessibility
+## Local artwork
 
-- `assets/hasham-doodle-avatar.png` is an original AI-generated inventor doodle inspired by Hasham's supplied sketch: black ink, a winking face, a crooked cap, and a mint-green flask. It is a symbolic character, not a claim of photographic likeness.
-- `assets/build-loop.svg` is a local, self-contained SVG. Its short typing animation stops, respects `prefers-reduced-motion`, and defaults to readable static text without animation support. Its message is repeated in accessible image text.
-- All essential identity, experience, skills, and contact information is ordinary text. Badges wrap; there are no fixed-width multi-column tables.
+Run `python scripts/generate_profile_assets.py` to rebuild the 13 SVG assets using only Python's standard library. The existing doodle PNG is embedded unchanged in both hero variants so the SVGs do not depend on external image requests. It is a symbolic inventor character, not a photographic likeness.
 
-## Dynamic cards
+`hero-mobile.svg` and `build-flow-mobile.svg` are selected through native HTML `picture` sources at viewport widths of 640 px and below. Project and stats cards use inline 390 px images that wrap into one column on narrow screens; GitHub limits image width to the available space. No layout tables, JavaScript, iframe, or external font is required.
 
-The stats card and contribution timeline use [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards). Both are configured for `Hashamjavedofficial`, are fetched as images, and may be cached or temporarily unavailable. Persistent text links to GitHub's overview, repositories, and pull requests provide an alternative. The timeline is expandable to keep the default view concise. The initially considered Activity Graph endpoint returned HTTP 402 during verification, so it is not used.
+All local animation uses SVG/CSS and respects `prefers-reduced-motion`. Static defaults leave the hero and first typing message visible if animation is unavailable. The build-flow animation is decorative; it does not represent GitHub activity.
 
-The six stack badges use Shields.io. The expanded toolbox preserves the same skills as text. No secrets, personal access tokens, or workflow permissions are needed for these cards. GitHub controls the surrounding page theme; the custom illustration, SVG, badges, and cards have explicit dark surfaces.
+## Dynamic images and fallbacks
 
-## Content boundaries
+- [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) provides the contribution timeline, stats, and repository-language card. All are configured for `Hashamjavedofficial`, with custom colors and supported entrance animations. These are provider snapshots and may be cached; language share describes repositories, not proficiency. Direct native GitHub links remain visible if a card fails.
+- [Skill Icons](https://github.com/tandpfun/skill-icons) provides the three technology-icon rows. Each row has alt text and a visible text equivalent.
+- Shields.io provides the three AI focus badges. The same focus appears in ordinary text above.
 
-The profile uses Hasham's reported professional experience and explicitly confirmed positioning. Public repositories are presented as a workbench of templates and experiments, not proof of ownership of unrelated professional projects. No unsupported performance figures, certifications, job dates, employer changes, or named AI framework expertise were added.
+Essential identity, experience, contact links, and skill names remain accessible through text or descriptive image alternatives. The public workbench describes templates and experiments separately from professional experience. No unsupported metrics, certifications, current employer changes, or framework claims were introduced.
 
-To publish the redesign, merge the profile pull request into this repository's default branch. Relative asset links work on the review branch and after merging. Changing the account avatar is a separate GitHub settings action.
+The unused `build-loop.svg` from the first design is retained for historical reuse. The avatar PNG remains available independently for manual account-avatar upload. This README change does not change GitHub account settings.

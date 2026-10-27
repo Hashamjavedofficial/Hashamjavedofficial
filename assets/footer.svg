@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="210" viewBox="0 0 1120 210" role="img" aria-labelledby="title">
+<title id="title">Have a good problem? Let’s build something useful.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1223"/><stop offset=".6" stop-color="#10152b"/><stop offset="1" stop-color="#191533"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#72f5cc"/><stop offset=".55" stop-color="#83c3ff"/><stop offset="1" stop-color="#c2a1ff"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#8e70ff" stop-opacity=".30"/><stop offset="1" stop-color="#8e70ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#afbbef" opacity=".13"/></pattern>
+</defs>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}@media(prefers-reduced-motion:reduce){.motion,.motion *{animation:none!important}}</style>
+
+<rect width="1120" height="210" rx="24" fill="url(#bg)"/><rect width="1120" height="210" rx="24" fill="url(#grid)"/>
+<path d="M0 166Q280 112 560 166T1120 166" fill="none" stroke="#7ce7ca" stroke-opacity=".18" stroke-width="30"/>
+<path d="M0 183Q280 129 560 183T1120 183" fill="none" stroke="#a99cff" stroke-opacity=".13" stroke-width="30"/>
+<text x="560" y="54" text-anchor="middle" class="mono" letter-spacing="3" font-size="15" fill="#94e8d7">HAVE A GOOD PROBLEM?</text>
+<text x="560" y="111" text-anchor="middle" font-size="42" font-weight="700" fill="#f1f5ff">Let's build something useful.</text>
+<text x="560" y="153" text-anchor="middle" font-size="18" fill="#b3c4e4">Full-stack products · API integrations · AI agents</text>
+
+</svg>

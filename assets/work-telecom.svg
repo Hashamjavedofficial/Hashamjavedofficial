@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="260" viewBox="0 0 560 260" role="img" aria-labelledby="title">
+<title id="title">Vodafone Qatar. Customer journeys, full-stack delivery, and service integrations. REACT  ·  NESTJS  ·  EXTERNAL APIs</title>
+<defs></defs>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}@media(prefers-reduced-motion:reduce){.motion,.motion *{animation:none!important}}</style>
+
+    <rect x="1" y="1" width="558" height="258" rx="20" fill="#10182b" stroke="#29344f"/>
+    <path d="M21 1H539" stroke="#7ce7ca" stroke-width="2" opacity=".8"/>
+    <circle cx="513" cy="45" r="78" fill="#7ce7ca" opacity=".045"/>
+    <text class="mono" x="28" y="38" font-size="13" letter-spacing="1.5" fill="#7ce7ca">01 / TELECOM</text>
+    <text x="28" y="91" font-size="36" font-weight="700" fill="#f1f5ff">Vodafone Qatar</text>
+    <text x="28" y="134" font-size="20" fill="#bbc8e3">Customer journeys, full-stack delivery,</text>
+    <text x="28" y="164" font-size="20" fill="#bbc8e3">and service integrations.</text>
+    <rect x="27" y="200" width="505" height="34" rx="8" fill="#18223a"/>
+    <text class="mono" x="42" y="222" font-size="13" fill="#7ce7ca">REACT  ·  NESTJS  ·  EXTERNAL APIs</text>
+    <g transform="translate(477 64)" stroke="#7ce7ca" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 8q15-16 30 0M5 16q10-10 20 0M10 24q5-5 10 0"/><circle cx="15" cy="32" r="2"/></g>
+    
+</svg>

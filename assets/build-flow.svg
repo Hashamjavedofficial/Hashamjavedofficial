@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="150" viewBox="0 0 1120 150" role="img" aria-labelledby="title">
+<title id="title">My build loop: understand, design, build, refine. Decorative animation, not contribution data.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1223"/><stop offset=".6" stop-color="#10152b"/><stop offset="1" stop-color="#191533"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#72f5cc"/><stop offset=".55" stop-color="#83c3ff"/><stop offset="1" stop-color="#c2a1ff"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#8e70ff" stop-opacity=".30"/><stop offset="1" stop-color="#8e70ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#afbbef" opacity=".13"/></pattern>
+</defs>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.flow{animation:flow 5s linear infinite}@keyframes flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-800}}@media(prefers-reduced-motion:reduce){.motion,.motion *{animation:none!important}}</style>
+
+<rect x="1" y="1" width="1118" height="148" rx="20" fill="#0c1425" stroke="#27324b"/>
+<path d="M160 76H960" fill="none" stroke="#25384c" stroke-width="3"/>
+<path class="motion flow" d="M160 76H960" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="60 740"/>
+<g fill="#131f32" stroke="#38685e" stroke-width="2"><circle cx="160" cy="76" r="25"/><circle cx="426" cy="76" r="25"/><circle cx="693" cy="76" r="25"/><circle cx="960" cy="76" r="25"/></g>
+<g class="mono" text-anchor="middle" font-size="18" fill="#95efdb"><text x="160" y="82">?</text><text x="426" y="82">✧</text><text x="693" y="82">&lt;/&gt;</text><text x="960" y="82">↻</text></g>
+<g text-anchor="middle" font-size="20" fill="#d0daf0" font-weight="600"><text x="160" y="35">Understand</text><text x="426" y="35">Design</text><text x="693" y="35">Build</text><text x="960" y="35">Refine</text></g>
+<text class="mono" x="560" y="131" font-size="13" letter-spacing="2" fill="#8c9bbd" text-anchor="middle">SMALL DETAILS. COMPLETE SYSTEMS.</text>
+
+</svg>
