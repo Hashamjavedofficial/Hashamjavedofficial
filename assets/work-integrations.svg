@@ -13,5 +13,5 @@
     <rect x="27" y="200" width="505" height="34" rx="8" fill="#18223a"/>
     <text class="mono" x="42" y="222" font-size="13" fill="#f2ce8c">SQL  ·  CLOUD  ·  AI AGENTS  ·  MCP</text>
     <g transform="translate(477 64)" stroke="#f2ce8c" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="20" r="8"/><circle cx="-1" cy="1" r="4"/><circle cx="34" cy="4" r="4"/><circle cx="32" cy="38" r="4"/><path d="M3 5l7 9M29 8l-8 6M29 34l-8-8"/></g>
-    
+
 </svg>

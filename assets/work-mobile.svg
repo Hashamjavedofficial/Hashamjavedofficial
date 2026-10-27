@@ -13,5 +13,5 @@
     <rect x="27" y="200" width="505" height="34" rx="8" fill="#18223a"/>
     <text class="mono" x="42" y="222" font-size="13" fill="#85c6ff">NEXT.JS  ·  REACT NATIVE  ·  MONOREPO</text>
     <g transform="translate(477 64)" stroke="#85c6ff" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="0" width="24" height="40" rx="5"/><path d="M11 5h8M12 34h6"/></g>
-    
+
 </svg>

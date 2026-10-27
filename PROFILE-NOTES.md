@@ -12,7 +12,9 @@ All local animation uses SVG/CSS and respects `prefers-reduced-motion`. Static d
 
 ## Dynamic images and fallbacks
 
-- [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) provides the contribution timeline, stats, and repository-language card. All are configured for `Hashamjavedofficial`, with custom colors and supported entrance animations. These are provider snapshots and may be cached; language share describes repositories, not proficiency. Direct native GitHub links remain visible if a card fails.
+- `scripts/update_activity.py` generates the activity, stats, and primary-language cards directly from GitHub's GraphQL API. The dated source is saved in `assets/github-data.json`. Contribution counts follow GitHub's rolling calendar; repositories and stars count owned public non-forks. Language counts describe repository contents, not proficiency.
+- `.github/workflows/refresh-profile.yml` refreshes the cards daily at 00:17 UTC (05:17 in Pakistan), on relevant script/workflow changes to `main`, or by manual dispatch. It uses the repository's ephemeral GitHub token, a SHA-pinned official checkout action, and a bot-authored commit. No additional secret or external stats host is needed. It starts after this PR is merged. API failures preserve the last successful cards and surface as a failed workflow run; timestamps and native GitHub links remain available.
+- The former third-party summary cards were removed after their contribution and repository counts disagreed with GitHub's API during verification.
 - [Skill Icons](https://github.com/tandpfun/skill-icons) provides the three technology-icon rows. Each row has alt text and a visible text equivalent.
 - Shields.io provides the three AI focus badges. The same focus appears in ordinary text above.
 

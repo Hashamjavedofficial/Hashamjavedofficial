@@ -13,5 +13,5 @@
     <rect x="27" y="200" width="505" height="34" rx="8" fill="#18223a"/>
     <text class="mono" x="42" y="222" font-size="13" fill="#a9a0ff">NEXT.JS  ·  TYPESCRIPT  ·  SIGNALR</text>
     <g transform="translate(477 64)" stroke="#a9a0ff" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 0h20v10h10v20H25v10H5V30H-5V10H5z"/></g>
-    
+
 </svg>

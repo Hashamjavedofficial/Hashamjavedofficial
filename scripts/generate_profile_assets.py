@@ -14,7 +14,7 @@ def save(name, width, height, title, body, defs='', css=''):
 <style>text{{font-family:Inter,Segoe UI,Arial,sans-serif}}.mono{{font-family:ui-monospace,Consolas,monospace}}{css}@media(prefers-reduced-motion:reduce){{.motion,.motion *{{animation:none!important}}}}</style>
 {body}
 </svg>'''
-    (ASSETS / name).write_text(svg, encoding='utf-8')
+    (ASSETS / name).write_text('\n'.join(line.rstrip() for line in svg.splitlines()) + '\n', encoding='utf-8')
 
 gradients = '''
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1223"/><stop offset=".6" stop-color="#10152b"/><stop offset="1" stop-color="#191533"/></linearGradient>

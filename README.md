@@ -82,15 +82,18 @@ From customer journeys to connected business systems.
 ## ✦ GitHub in motion
 
 <a href="https://github.com/Hashamjavedofficial?tab=overview">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hashamjavedofficial&amp;name=Hasham%20Javed&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;icon_color=a9a0ff&amp;chart_color=a9a0ff&amp;animation=draw&amp;duration=3" width="100%" alt="Hasham Javed's contribution timeline. Open GitHub for the native contribution calendar." />
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/github-activity-mobile.svg" />
+    <img src="assets/github-activity.svg" width="100%" alt="Hasham Javed's contribution calendar, generated from GitHub's API. Open GitHub for the native calendar." />
+  </picture>
 </a>
 
 <div align="center">
-  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hashamjavedofficial&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;icon_color=a9a0ff&amp;animation=stagger&amp;duration=2" width="390" alt="GitHub statistics for Hashamjavedofficial; open repositories to explore the source." /></a>
-  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hashamjavedofficial&amp;theme=tokyonight&amp;bg_color=10182b&amp;border_color=29344f&amp;title_color=7ce7ca&amp;text_color=c7d2ed&amp;animation=draw&amp;duration=2" width="390" alt="Languages across public repositories; this chart describes repository contents, not professional proficiency." /></a>
+  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="assets/github-stats.svg" width="390" alt="Public non-fork repositories, followers, and stars earned, sourced from GitHub's API." /></a>
+  <a href="https://github.com/Hashamjavedofficial?tab=repositories"><img src="assets/github-languages.svg" width="390" alt="Primary languages across public non-fork repositories; repository contents are not a professional proficiency score." /></a>
 </div>
 
-<p align="center"><sub>Provider snapshots may be cached; public GitHub activity is one part of my work.</sub><br />
+<p align="center"><sub>Updated daily from GitHub · Public activity is one part of my work.</sub><br />
 <a href="https://github.com/Hashamjavedofficial?tab=overview">Native contribution calendar</a> · <a href="https://github.com/Hashamjavedofficial?tab=repositories">All repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3AHashamjavedofficial">Pull requests</a></p>
 
 ## ✦ The public workbench
