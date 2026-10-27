@@ -20,7 +20,7 @@
 <text class="mono" x="83" y="56" font-size="13" letter-spacing="1.1" fill="#a1f8df">SENIOR FULL-STACK DEVELOPER</text>
 <text x="50" y="166" font-size="102" font-weight="800" letter-spacing="-5" fill="#f5f7ff">Hasham</text>
 <text x="50" y="271" font-size="112" font-weight="800" letter-spacing="-5" fill="url(#accent)">Javed.</text>
-<text x="55" y="316" font-size="23" fill="#c7d2ed">Thoughtful interfaces. Powerful systems.</text>
+<text x="55" y="316" font-size="23" fill="#c7d2ed">Code. Connect. Experiment.</text>
 <g class="mono" font-size="14" fill="#b7c6e5">
 <text x="55" y="382">REACT / NEXT.JS</text><text x="247" y="382">NODE / NESTJS</text><text x="434" y="382">AI / SQL / CLOUD</text></g>
 <path d="M226 368v17M413 368v17" stroke="#485774"/>
