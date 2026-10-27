@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="58" viewBox="0 0 560 58" role="img" aria-labelledby="title">
-<title id="title">React. Node. TypeScript. From React to cloud. Building with AI agents.</title>
+<title id="title">AI agents. MCP integrations. TypeScript from UI to APIs. Building connected systems.</title>
 <defs></defs>
 <style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.line{opacity:0}.first{opacity:1;animation:first 15s infinite}.second{animation:second 15s infinite}.third{animation:third 15s infinite}.reveal{animation:type 5s steps(28,end) infinite}@keyframes first{0%,32%{opacity:1}33.33%,99%{opacity:0}100%{opacity:1}}@keyframes second{0%,33.32%{opacity:0}33.33%,65.32%{opacity:1}66.66%,100%{opacity:0}}@keyframes third{0%,66.65%{opacity:0}66.66%,99%{opacity:1}100%{opacity:0}}@keyframes type{0%{width:0}55%,86%{width:490px}99%,100%{width:0}}@media(prefers-reduced-motion:reduce){.motion,.motion *{animation:none!important}}</style>
 
 <defs><clipPath id="reveal"><rect class="motion reveal" x="35" y="5" width="490" height="47"/></clipPath></defs>
 <g class="mono" font-size="25" font-weight="600" fill="#8fe8d2" text-anchor="middle" clip-path="url(#reveal)">
-<text class="motion line first" x="280" y="37">React. Node. TypeScript.</text>
-<text class="motion line second" x="280" y="37">From React to cloud.</text>
-<text class="motion line third" x="280" y="37">Building with AI agents.</text>
+<text class="motion line first" x="280" y="37">AI agents. MCP integrations.</text>
+<text class="motion line second" x="280" y="37">TypeScript from UI to APIs.</text>
+<text class="motion line third" x="280" y="37">Building connected systems.</text>
 </g>
 
 </svg>

@@ -1,6 +1,6 @@
 # Profile maintenance
 
-This README focuses on GitHub: an illustrated header, a short TypeScript introduction, an animated contribution snake, technology icons, account statistics, and public repositories. Employer/project case studies and the portfolio-style sales footer have been removed. The account avatar is a separate manual setting.
+This README focuses on GitHub: an AI/MCP-led illustrated header, a badge-rich About Me section, seven expandable Tech Arsenal groups, GitHub Analytics, a contribution snake, and public repositories. AI agents and MCP lead the visual hierarchy. The Learning Lab separates ongoing Python, FastAPI, and LLM learning from established tools. Employer/project case studies and the portfolio-style sales footer remain removed. The account avatar is a separate manual setting.
 
 ## Artwork
 
@@ -16,6 +16,6 @@ Visitors requesting reduced motion see the static GitHub calendar instead of the
 
 ## Data and external icons
 
-`scripts/update_activity.py` queries GitHub's GraphQL API, saves dated aggregate data in `assets/github-data.json`, and produces the account cards and static calendars. Repositories and stars count owned public non-forks. Language counts describe repository contents, not proficiency. No private repository names or credentials are saved.
+`scripts/update_activity.py` queries GitHub's GraphQL API, saves dated aggregate data in `assets/github-data.json`, and produces monthly contribution charts, account cards, and static calendars. Monthly totals sum to the contribution-calendar total. Separate desktop and mobile analytics charts use a short reveal animation with reduced-motion support. Repositories and stars count owned public non-forks. Language counts describe repository contents, not proficiency. No private repository names or credentials are saved.
 
-[Skill Icons](https://github.com/tandpfun/skill-icons) serves the three icon rows; each has alt text and a visible text equivalent. Shields.io serves three AI-focus badges. The public repositories are labelled as templates and experiments. Historical `build-loop.svg` and the standalone doodle remain available for reuse.
+Shields.io serves the compact About Me badges and colorful Tech Arsenal badges. Every image has a descriptive alternative. The seven groups are open by default and can be collapsed. They use Hasham's reported experience and current learning, without copying unconfirmed technologies from the reference profile. The public repositories are labelled as templates and experiments. Historical `build-loop.svg` and the standalone doodle remain available for reuse.

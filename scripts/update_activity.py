@@ -98,8 +98,45 @@ for i,(name,n) in enumerate(items):
 body+='<text x="28" y="235" fill="#9dacc9" font-size="13">Primary language per public repo · Not a proficiency score</text>'
 languages=svg('Primary languages across public, non-fork repositories; not professional proficiency.',560,260,body)
 
+monthly=Counter()
+for week in calendar['weeks']:
+    for day in week['contributionDays']:
+        monthly[day['date'][:7]]+=day['contributionCount']
+months=sorted(monthly)
+assert sum(monthly.values())==total
+source['monthly_contributions']=[{'month':m,'contributions':monthly[m]} for m in months]
+
+def monthly_chart(mobile=False):
+    width,height=(620,365) if mobile else (1120,330)
+    x0,x1,y0,y1=(50,580,165,285) if mobile else (330,1075,70,235)
+    peak=max(monthly.values(),default=0)
+    ymax=max(10,math.ceil(peak/10)*10)
+    points=[(x0+i*(x1-x0)/max(1,len(months)-1),y1-monthly[m]*(y1-y0)/ymax) for i,m in enumerate(months)]
+    if mobile:
+        b=f'<text x="30" y="45" fill="#7ce7ca" font-size="29" font-weight="600">GitHub Analytics</text><text x="30" y="115" fill="#eef3ff" font-size="54" font-weight="700">{total:,}</text><text x="200" y="110" fill="#bbc8e3" font-size="22">contributions</text>'
+    else:
+        b=f'<text x="30" y="45" fill="#7ce7ca" font-size="28" font-weight="600">GitHub Analytics</text><text x="30" y="147" fill="#eef3ff" font-size="68" font-weight="700">{total:,}</text><text x="33" y="182" fill="#bbc8e3" font-size="21">contributions</text><text x="330" y="44" fill="#b8c6e2" font-size="17">Monthly contributions</text>'
+    for n in range(3):
+        value=ymax*n/2
+        y=y1-(y1-y0)*n/2
+        b+=f'<path d="M{x0} {y}H{x1}" stroke="#29344f" stroke-dasharray="3 6"/><text x="{x0-12}" y="{y+5}" text-anchor="end" fill="#91a2c2" font-size="14">{value:g}</text>'
+    path='M'+' L'.join(f'{x:.2f} {y:.2f}' for x,y in points)
+    area=path+f' L{x1} {y1} L{x0} {y1} Z'
+    b+=f'<defs><clipPath id="chart"><rect class="reveal" x="{x0-4}" y="{y0-8}" width="{x1-x0+8}" height="{y1-y0+20}"/></clipPath></defs><style>.reveal{{animation:reveal 1.6s ease-out 1}}@keyframes reveal{{from{{width:0}}to{{width:{x1-x0+8}px}}}}@media(prefers-reduced-motion:reduce){{.reveal{{animation:none}}}}</style>'
+    b+=f'<g clip-path="url(#chart)"><path d="{area}" fill="#a9a0ff" opacity=".16"/><path d="{path}" stroke="#a9a0ff" stroke-width="3" fill="none"/>'
+    for x,y in points:
+        b+=f'<circle cx="{x:.2f}" cy="{y:.2f}" r="4" fill="#7ce7ca"/>'
+    b+='</g>'
+    stride=3 if mobile else 2
+    for i,m in enumerate(months):
+        if i%stride==0 or i==len(months)-1:
+            label=datetime.strptime(m,'%Y-%m').strftime('%b %y')
+            b+=f'<text x="{points[i][0]:.2f}" y="{y1+25}" text-anchor="middle" fill="#9dacc9" font-size="14">{label}</text>'
+    b+=f'<text x="30" y="{height-21}" fill="#9dacc9" font-size="{15 if mobile else 13}">GitHub API · {source["window_start"]} to {source["window_end"]}</text>'
+    return svg(f'GitHub Analytics: {total} contributions across the displayed rolling year, grouped by month. Updated {updated}.',width,height,b)
+
 # Write only after all API requests and rendering succeeded, preserving prior cards on failure.
-files={'github-activity.svg':activity,'github-activity-mobile.svg':mobile,'github-stats.svg':stats,'github-languages.svg':languages,'github-data.json':json.dumps(source,indent=2)+'\n'}
+files={'github-activity.svg':activity,'github-activity-mobile.svg':mobile,'github-stats.svg':stats,'github-languages.svg':languages,'github-analytics.svg':monthly_chart(),'github-analytics-mobile.svg':monthly_chart(True),'github-data.json':json.dumps(source,indent=2)+'\n'}
 for name,content in files.items():
     (ASSETS/name).write_text(content.rstrip()+'\n',encoding='utf-8')
 print(f'Refreshed {len(files)} assets from GitHub: {total} contributions, {len(repos)} public non-fork repos.')
