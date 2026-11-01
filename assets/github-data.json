@@ -1,52 +1,13 @@
 {
   "username": "Hashamjavedofficial",
-  "updated_on_utc": "2026-10-31",
+  "updated_on_utc": "2026-11-01",
   "window_start": "2025-10-26",
-  "window_end": "2026-10-31",
+  "window_end": "2026-11-01",
   "total_contributions": 231,
   "public_nonfork_repositories": 26,
   "followers": 7,
   "stars_on_public_nonfork_repositories": 1,
   "weeks": [
-    {
-      "contributionDays": [
-        {
-          "date": "2025-10-26",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-27",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-28",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-29",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-30",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-10-31",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        },
-        {
-          "date": "2025-11-01",
-          "contributionCount": 0,
-          "contributionLevel": "NONE"
-        }
-      ]
-    },
     {
       "contributionDays": [
         {
@@ -2074,6 +2035,15 @@
           "contributionLevel": "NONE"
         }
       ]
+    },
+    {
+      "contributionDays": [
+        {
+          "date": "2026-11-01",
+          "contributionCount": 0,
+          "contributionLevel": "NONE"
+        }
+      ]
     }
   ],
   "primary_languages": [
@@ -2109,10 +2079,6 @@
     }
   ],
   "monthly_contributions": [
-    {
-      "month": "2025-10",
-      "contributions": 0
-    },
     {
       "month": "2025-11",
       "contributions": 0
@@ -2160,6 +2126,10 @@
     {
       "month": "2026-10",
       "contributions": 134
+    },
+    {
+      "month": "2026-11",
+      "contributions": 0
     }
   ]
 }
